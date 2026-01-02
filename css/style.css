@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.blog{
+    background-color:skyblue;
+    width: 50%;
+    text-align: center;
+    margin: 0px 0px 0px 5%;
+    box-shadow: 20px 10px 20px gray;
+    padding: 20px;
+    border-radius: 20px;
+}
+.blog-head{
+    color: rgb(31, 184, 184);
+    text-align: center;
+    font-size: xx-large;
+    padding-top:20px;
+    font-weight: bolder;
+}
+.container{
+    display: flex;
+    justify-content:wrap;
+    gap: 2px;
+    margin: 50px 50px 50px 20px;
+    
+}
+h1{
+    color: blanchedalmond;
+}
+#input_field{
+    
+    margin: 0% 25% 10% 25%;
+    border-radius: 20px;
+    border: 20px solid rgb(186, 244, 245);
+    background-color:rgb(177, 229, 246);
+    padding: 20px;
+    box-shadow: 20px 10px 20px rgb(178, 231, 238);
+}
+.form-inp{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.inp-row{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.lbl{
+    width: 120px;
+    text-align: right;
+}
+.inp{
+    flex: 1;
+    border: none;
+    padding: 20px 0px 0px 20px;
+    margin-right: 10px;
+}
+#btn1,#btn2{
+    color: beige;
+    background-color:deepskyblue;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    display: block;
+    margin-top: 10px;
+}
+#btn1{
+    margin-left: 0;
+}
+#btn2{
+    margin-left: auto;
+}
+.haed{
+    margin-top: 0;
+    background-color: antiquewhite;
+    height: 650px;
+    background-image: url(../images/ocean1.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.h2{
+    padding: 200px 0px 0px 10px;
+    color: beige;
+    font-size: xx-large;
+    margin-top: 0;
+}
+.p{
+    color:blanchedalmond;
+    text-align: left;
+    width: 50%;
+    font-size: medium;
+    padding: 20px 0px 0px 10px;
+    margin-top: 0;
+}
+
+.btn-div{
+    display: flex;
+    /* gap: 300px; */
+}
